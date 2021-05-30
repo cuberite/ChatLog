@@ -15,7 +15,7 @@ function Initialize(Plugin)
 
 	cPluginManager.AddHook(cPluginManager.HOOK_CHAT, OnChat)
 
-	LOG("Initialized " .. Plugin:GetName() .. " v." .. Plugin:GetVersion())
+	LOG("Initialized " " v." .. Plugin:GetVersion())
 	return true
 end
 
