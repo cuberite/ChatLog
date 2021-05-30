@@ -25,7 +25,7 @@ end
 
 function OnChat(Player, Message)
 	-- Lets get loggin'
-	LOGINFO("[" .. Player:GetName() .. "]: " .. StripColorCodes(Message));
+	LOGINFO("[" .. Player:GetName() .. "]: " .. StripColorCodes(Message), "");
 
 	return false
 end
